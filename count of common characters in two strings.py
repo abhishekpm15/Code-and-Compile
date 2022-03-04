@@ -15,6 +15,7 @@ for i in range(len(s1)):
         if s1[i]==s2[j]:
             s2[j]='*'
             c+=1
+            break
     if c>0:
         r+=1
 print(r)
